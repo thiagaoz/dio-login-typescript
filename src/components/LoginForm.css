@@ -1,0 +1,44 @@
+html{
+    background-color: rgb(1, 10, 1);
+    color: greenyellow;
+
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+}
+
+.error{
+    color: red;
+    letter-spacing: 1px;
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    width: 800px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+input{
+    font-weight: bold;
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+}
+
+.input-btn{
+    background-color: greenyellow;
+    height: initial;
+    padding: 10px 50px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
